@@ -1,4 +1,14 @@
-baseURL = "https://idiotblogs.netlify.app/"
-languageCode = "en-us"
-title = "IdiotBlogs"
-theme = "Compose"
+baseurl = "https://idiotblogs.netlify.app/"
+title = "IdiotCodes"
+theme = "PaperMod"
+
+[Params]
+    mainSections = ["post"]
+    github = "https://github.com/idiotcodes"
+    twitter = "https://twitter.com/idiotcodes"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+    post = "/:filename/"
